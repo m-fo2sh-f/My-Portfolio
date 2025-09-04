@@ -21,6 +21,8 @@ import {
     SiWhatsapp,
 } from "react-icons/si";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
+import cv from '../assets/Mohamed_Fouad_Full Stack Developer2.pdf'
+import mySmallImg from '../assets/WhatsApp Image 2025-08-31 at 21.41.04_c72704dd (1).webp'
 
 const CustomLinearProgress = styled(LinearProgress)(({ theme }) => ({
     height: 4, // ارتفاع البار
@@ -104,7 +106,7 @@ export default function LeftSide() {
                     >
                         <Avatar
                             alt="Remy Sharp"
-                            src="/public/5893226435202631971_121.webp"
+                            src={mySmallImg}
                             sx={{
                                 width: { lg: 140, md: 90, xs: 140 },
                                 height: { lg: 140, md: 90, xs: 140 },
@@ -244,7 +246,7 @@ export default function LeftSide() {
             >
                 <ColorButton
                     component="a"
-                    href="/Mohamed_Fouad_Full Stack Developer2.pdf"
+                    href={cv}
                     download="Mohamed-Fouad-CV.pdf"
                     className="button-cv"
                     sx={{
@@ -261,7 +263,7 @@ export default function LeftSide() {
                     }}
                     variant="contained"
                 >
-                    Download CV{" "}
+                    Download CV
                     <FileDownloadIcon
                         sx={{ ml: { lg: "10px", md: "5px" } }}
                     ></FileDownloadIcon>

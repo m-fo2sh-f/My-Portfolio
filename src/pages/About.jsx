@@ -10,7 +10,7 @@ import {
     useTheme,
 } from "@mui/material";
 import { Link } from "react-router-dom";
-
+import myBigImg from '../assets/5893226435202631971_121.webp';
 export default function About() {
     const theme = useTheme();
     const textArray = [
@@ -188,7 +188,7 @@ export default function About() {
                 <Box>
                     <Avatar
                         alt="Remy Sharp"
-                        src="/public/5893226435202631971_121.webp"
+                        src={myBigImg}
                         sx={{
                             mt: 5,
                             width: { lg: 190, md: 150, xs: 140 },

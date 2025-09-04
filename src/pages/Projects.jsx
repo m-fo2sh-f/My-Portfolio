@@ -5,6 +5,9 @@ import Typography from "@mui/material/Typography";
 import { Box, Grid, Stack, useTheme } from "@mui/material";
 import { ColorButton } from "../components/AboutMe";
 import RemoveRedEyeIcon from "@mui/icons-material/RemoveRedEye";
+import believeImg from '../assets/believe.webp'
+import toDoListImg from '../assets/todolist.webp'
+import dashboardImg from '../assets/dashboard.webp'
 
 const projects = [
     {
@@ -13,7 +16,7 @@ const projects = [
         description:
             "Interactive dashboard built with React.js and Material UI, connected to a PHP & MySQL backend for dynamic data management",
         link: "https://fo2sh-dashboard.42web.io/index.html",
-        imgSrc: "/public/dashboard.webp",
+        imgSrc: dashboardImg,
     },
     {
         id: 2,
@@ -21,7 +24,7 @@ const projects = [
         description:
             "A responsive online store built with HTML, CSS, SASS, JavaScript, Includes shopping cart and item page.  ",
         link: "https://m-fo2sh-f.github.io/Believe/",
-        imgSrc: "../../public/believe.webp",
+        imgSrc: believeImg,
     },
 
     {
@@ -30,7 +33,7 @@ const projects = [
         description:
             "A to-do list application built with React.js and Material UI, featuring add, update, complete, delete, and local storage persistence.  ",
         link: "https://m-fo2sh-f.github.io/react-ToDoList/",
-        imgSrc: "../../public/todolist.webp",
+        imgSrc: toDoListImg,
     },
 ];
 export default function Projects() {
