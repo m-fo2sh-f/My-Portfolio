@@ -91,6 +91,8 @@ export default function NavBar({ mode, setMode }) {
                 }}
             >
                 <Tooltip
+                    sx={{ width: 0, height: 0 }}
+
                     title={theme.palette.mode === "light" ? "Dark" : "Light"}
                     placement="top"
                     arrow
@@ -109,11 +111,11 @@ export default function NavBar({ mode, setMode }) {
                     >
                         {mode === "light" ? (
                             <Brightness4
-                                sx={{ fontSize: { xl: "40px", md: "40px", xs: "35px" } }}
+                                sx={{ fontSize: { xl: "40px", md: "40px", xs: "30px" } }}
                             />
                         ) : (
                             <Brightness7
-                                sx={{ fontSize: { xl: "40px", md: "40px", xs: "35px" } }}
+                                sx={{ fontSize: { xl: "40px", md: "40px", xs: "30px" } }}
                             />
                         )}
                     </IconButton>

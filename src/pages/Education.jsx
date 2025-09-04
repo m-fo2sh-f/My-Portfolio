@@ -15,7 +15,7 @@ export default function Education() {
         <Box
             sx={{
                 position: "relative",
-                width: "100%",
+                width: "95%",
                 ml: "30px",
                 pl: "30px",
                 "&::before": {

@@ -190,9 +190,9 @@ export default function About() {
                         alt="Remy Sharp"
                         src={myBigImg}
                         sx={{
-                            mt: 5,
-                            width: { lg: 190, md: 150, xs: 140 },
-                            height: { lg: 190, md: 150, xs: 140 },
+                            // mt: 5,
+                            width: { lg: 260, md: 150, xs: 140 },
+                            height: { lg: 260, md: 150, xs: 140 },
                         }}
                     />
                 </Box>
@@ -216,7 +216,7 @@ export default function About() {
                 </Typography>
                 <Typography
                     textAlign={"center"}
-                    sx={{ color: theme.palette.text.secondary }}
+                    sx={{ m: '0 0 20px 0', color: theme.palette.text.secondary }}
                 >
                     I am Mohamed Fouad, a dedicated <b>Computer Science student</b> and
                     aspiring <b>Full Stack Developer</b> with hands-on experience in{" "}
@@ -229,6 +229,6 @@ export default function About() {
                     push my technical and problem-solving skills further.
                 </Typography>
             </Stack>
-        </Box>
+        </Box >
     );
 }
